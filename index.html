@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <form id="userform" class="form">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="text" id="phone" placeholder="Phone" required>
+            <input type="text" id="address" placeholder="Address" required>
+            <input type="date" id="date" placeholder="Date" required>
+            <input type="text" id="job" placeholder="Job" required>
+            <button type="submit">Submit</button>
+        </form>
+
+        <table id="userTable">
+            <tr>
+                <th>Name</th>
+                <th>Phone</th>
+                <th>Address</th>
+                <th>Date of Birth</th>
+                <th>Job</th>
+                <th>Delete</th>
+            </tr>
+            <tr id="dataRow"></tr>
+        </table>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
