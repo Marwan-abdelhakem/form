@@ -13,7 +13,7 @@ form.addEventListener("submit", function (ev) {
         date: document.getElementById("date").value,
         job: document.getElementById("job").value
     }
-    table.style.display = "table";
+    table.style.display
 
     const row = table.insertRow();
     row.insertCell(0).innerText = userDate.name;
